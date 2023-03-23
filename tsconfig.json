@@ -9,8 +9,13 @@
     "removeComments": true,
     "module": "ESNext",
     "sourceMap": true,
-    "lib": ["DOM","ES2015.Promise","ES5"],
-    "skipLibCheck": true
+    "lib": [
+      "DOM",
+      "ES2015.Promise",
+      "ES5"
+    ],
+    "skipLibCheck": true,
+    "jsx": "preserve"
   },
   "include": [
     "src/**/*.ts",
