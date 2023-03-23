@@ -11,7 +11,13 @@
   },
   "dependencies": {
     "@astrojs/vue": "^2.1.0",
+    "@unocss/reset": "^0.50.6",
+    "@unocss/vite": "^0.50.6",
     "astro": "^2.1.5",
+    "unocss": "^0.50.6",
     "vue": "^3.2.30"
+  },
+  "devDependencies": {
+    "less": "^4.1.3"
   }
 }
